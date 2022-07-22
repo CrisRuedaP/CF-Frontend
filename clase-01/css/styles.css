@@ -1,0 +1,13 @@
+p {
+  color: red;
+}
+
+.menu {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitle {
+  color: blue;
+}

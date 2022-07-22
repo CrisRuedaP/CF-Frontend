@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@500;900&display=swap');
+
+html {
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Menu */
+
+.menu {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.menu li {
+  display: inline-block;
+  list-style-type: none;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.menu li a{
+  color: #051626;
+  text-decoration: none;
+}
+
+/* Bio */
+
+.bio-container {
+  background-color: #000000;
+  width: 100%;
+}
+
+.bio-banner {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+	justify-content: space-between;
+  align-items: center;
+  height: 500px;
+}
+
+.bio-details h1 {
+  color: white;
+  font-size: 6.25rem;
+  font-weight: 900;
+}
+
+.bio-details p {
+  color: #5acc86;
+  font-size: 1rem;
+  margin-top: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.bio-img {
+  width: 350px;
+	height: 350px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+  background-color: white;
+}
+
+/* Sections */
+
+.container-bg {
+  background-color: #f4f5f7;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.container-title { 
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+
+/* Project section */
+
+.project{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project-details {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.project-description {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin-top: 20px;
+}
+
+.project-img {
+  height: 500px;
+}
+
+/* Footer */
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+
+.contact-email a {
+  color: #5acc86;
+}
